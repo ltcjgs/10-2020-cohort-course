@@ -1,24 +1,10 @@
-body {
-    background-color: lightblue;
-  }
 
-  5. Inside of `warm-up.css`, using CSS, style `h1`, `h2`, and `h3` accordingly:
-   1. lowercase
-   2. right aligned
-   3. font size of 58 pixels
   h1 {
-    color: white;
-    text-align: :right;
+    text-transform: lowercase;
   }
   h2 {
-    color: white;
     text-align: :right;
   } 
   h3 {
-    color: white;
-    text-align: :right;
-  }
-  p {
-    font-family: verdana;
     font-size: 58px;
   }

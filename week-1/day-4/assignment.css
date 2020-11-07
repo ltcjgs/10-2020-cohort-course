@@ -1,0 +1,24 @@
+div {
+  display: inline-block;
+  width: 32%; 
+}
+#columnOne {
+  text-align: center;
+}
+.underline {
+text-decoration: underline;
+}
+.textAlign {
+text-align: center;
+}
+.imageCenter {
+  margin: auto;
+}
+.borders {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#columnTwo {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}

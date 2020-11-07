@@ -79,3 +79,7 @@ For a challenge, try implementing any or all of the bullets below
 - Add some conditional logic to your javascript code to prevent users from translating the imageSlider too far in either direction
 - Add console logs to see what your current position is any time the prevImage or nextImage functions are invoked
 - Automate your js carousel with setTimeout, and make it move forwards then backwards once it renders the last image on the screen (see video)
+
+Please show us how to link the JavaScript page
+From Brett Cunningham to Everyone: 
+https://www.w3schools.com/tags/att_script_src.asp

@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaw Assignment W2D4</title>
+    <link rel="stylesheet" href="Assignment W2D4.css">
+
+</head>
+
+<body>
+
+    <h1><u>Tree Carousel</u>
+        <text-align: center> </h1>
+ <div id="window" style="background-color:green; height: 400px; width: 500px; margin: 0 auto;">
+     <div id="imageSlider" style="display: flex;">
+        <img height="400px"; width="500px" src="https://www.visitphilly.com/wp-content/uploads/2018/02/Trees-along-Lake-NockamixonPhoto-by-Reflections-by-Ruth-courtesy-of-Visit-Bucks-County-1200x900-1044x781.jpg"alt="">
+        <img height="400px"; width="500px" src="https://mymodernmet.com/wp/wp-content/uploads/archive/hW-J-sM1IQW9GPeFDTSo_1082131259.jpeg"alt="">
+        <img height="400px"; width="500px" src="https://www.wallpaperup.com/uploads/wallpapers/2016/05/31/972616/1693118dbce8cf69852e9a91ca65e743-700.jpg"alt="">
+        <img height="400px"; width="500px" src="https://c4.wallpaperflare.com/wallpaper/390/414/515/waterfall-trees-fall-laos-rainbows-wallpaper-preview.jpg"alt="">
+        <img height="400px"; width="500px" src="https://www.readersdigest.ca/wp-content/uploads/2018/10/autumn-in-canada-sunlight-forest.jpg"alt="">
+    </div>
+</div>
+<h1><u>Leaf Carousel</u> 
+      <text-align: center></h1>
+<div id="window" style="background-color:goldenrod; height: 400px; width: 500px; margin: 0 auto;">
+  <div id="imageSlider2" style="display: flex;">
+      <img height="400px"; width="500px" src="https://www.gardeningknowhow.com/wp-content/uploads/2018/06/fall-leaves.jpg" alt="">
+      <img height="400px"; width="500px" src="https://gastateparks.org/sites/default/files/parks/images/leafwatch/leafwatch-leaves.jpg" alt="">
+      <img height="400px"; width="500px"src="https://www.mtpr.org/sites/kufm/files/styles/x_large/public/201810/fall-leaves_PD.jpg" alt="">
+      <img height="400px"; width="500px" src="https://supersimple.com/wp-content/uploads/jeremy-thomas-79493-unsplash.jpg" alt="">
+      <img height="400px"; width="500px" src="https://www.keepinspiring.me/wp-content/uploads/2018/08/IMG_2079.jpg" alt="">
+    </div>
+    </div>
+
+<div class="centerItems">
+    
+    <button onclick="PrevImage()"
+  
+    >Previous</button>  
+    <button onclick="NextImage()"
+  
+    >Next</button>  
+</div>
+  <script>
+ var currentPosition = 0;
+
+ var PrevImage = function() {
+     currentPosition = currentPosition + 500;
+     document.getElementById('imageSlider2').style.transform = 'translateX(' + currentPosition + 'px)';
+ }
+
+ var NextImage = function() {
+     currentPosition = currentPosition - 500;
+     document.getElementById('imageSlider2').style.transform = 'translateX(' + currentPosition + 'px)';
+ }
+
+    setTimeout(NextImage, 1000)
+    setTimeout(NextImage, 3000)
+    setTimeout(NextImage, 5000)
+
+  </script>
+</body>
+</html>

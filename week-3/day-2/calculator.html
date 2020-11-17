@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <script src="Calculator.js"></script>
+    <link rel="stylesheet" href="./Calculator.css"/>
+</head>
+<body>
+    <h1>Web Calculator</h1>
+    <p>Enter two numbers to add together</p>
+        <div id="button">
+            <button type="button" onclick="sum()">Sum</button>
+            <input id= "input1" type="number">
+                <span>+</span>
+            <input id= "input2" type="number">
+                <span>=</span>
+                <span id="sumResult"></span>
+        </div>
+    <p>Enter two numbers to multiply together</p>
+        <div id="button">
+            <button type="button" onclick="product()">Multiply</button>
+            <input id= "input3" type="number">
+                <span>*</span>
+            <input id= "input4" type="number">
+                <span>=</span>
+                <span id="productResult"></span>
+        </div>
+    <p>Enter two numbers to produce the dividend</p>
+        <div id="button">
+            <button type="button" onclick="quotient()">Divide</button>
+            <input id= "input5" type="number">
+                <span>/</span>
+            <input id= "input6" type="number">
+                <span>=</span>
+                <span id="quotientResult"></span>
+        </div>
+    <p>Enter two numbers to get the difference</p>
+        <div id="button">
+            <button type="button" onclick="difference()">Subtract</button>
+            <input id= "input7" type="number">
+                <span>-</span>
+            <input id= "input8" type="number">
+                <span>=</span>
+                <span id="differenceResult"></span>
+        </div>
+</body>
+</html>
